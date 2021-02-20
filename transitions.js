@@ -1,5 +1,5 @@
 const router = require("express").Router();
-const Transition = require("../Server Side/Model/transition");
+const Transition = require("./Model/transition");
 
 router.get("/", async (req, res) => {
   try {
