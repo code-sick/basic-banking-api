@@ -20,4 +20,4 @@ app.get("/", (req, res) => {
   res.send("we are at home");
 });
 
-app.listen(3000);
+app.listen(process.env.PORT || 5000);
